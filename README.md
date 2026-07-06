@@ -1,30 +1,8 @@
-<!--
-  GitHub Profile README
-  Owner: Abhinand / abzops
-  Theme: AI Operations Architect | ERP Automation | Systems Builder
-  Version: Creative Stable Edition
--->
+<!-- README.md | Abhinand / abzops | Visual Profile Redesign -->
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:0D1117,70:0EA5E9,100:00F5A0&height=260&section=header&text=ABHINAND&fontSize=76&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=AI%20Operations%20Architect%20%7C%20ERP%20Automation%20%7C%20Systems%20Builder&descAlignY=56&descSize=18" alt="Header Banner" />
-
-  <br />
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&duration=2800&pause=750&color=00F5A0&center=true&vCenter=true&width=1000&lines=I+design+systems+that+make+operations+faster.;I+build+ERP%2C+IMS%2C+CRM+and+automation+workflows.;I+turn+business+chaos+into+structured+digital+systems.;AI-assisted+execution+%2B+clean+process+architecture." alt="Typing SVG" />
-
-  <br /><br />
-
-  <a href="https://linkedin.com/in/abzops">
-    <img src="https://img.shields.io/badge/LinkedIn-Abhinand-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:opsintern@stacknstock.in">
-    <img src="https://img.shields.io/badge/Email-opsintern%40stacknstock.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/abzops">
-    <img src="https://img.shields.io/badge/GitHub-abzops-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=abzops&label=Profile%20Views&color=00F5A0&style=for-the-badge" />
+<img src="./assets/profile-hero.svg" alt="Abhinand - AI Operations Architect" width="100%" />
 
 </div>
 
@@ -32,28 +10,31 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/ERPNext-Frappe-00F5A0?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Zoho-Automation-00D9FF?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Supabase-Dashboards-3ECF8E?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Procurement-Systems-FFD166?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Inventory-Workflows-FF4D6D?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/AI--Assisted-Development-A855F7?style=flat-square&labelColor=0D1117" />
+<a href="https://linkedin.com/in/abzops">
+  <img src="https://img.shields.io/badge/LinkedIn-Abhinand-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:opsintern@stacknstock.in">
+  <img src="https://img.shields.io/badge/Email-opsintern%40stacknstock.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="https://github.com/abzops">
+  <img src="https://img.shields.io/badge/GitHub-abzops-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
 
 </div>
 
 ---
 
-# ⚡ Digital Operations Command Center
+## ⚡ Digital Operations Command Center
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
-## 👋 About Me
+### 👋 About Me
 
 I’m **Abhinand**, a systems-focused builder working across **AI-assisted development, ERP workflows, automation, procurement systems, inventory management, CRM dashboards, and internal business tools**.
 
-My core strength is converting real company operations into **structured, scalable, and execution-ready digital systems**.
+My work is focused on converting real company operations into **structured, scalable, and execution-ready digital systems**.
 
 I like building tools that are:
 
@@ -68,7 +49,7 @@ I like building tools that are:
 </td>
 <td width="40%" valign="top">
 
-## 🧠 Builder Identity
+### 🧠 Builder Identity
 
 ```yaml
 name: Abhinand
@@ -95,58 +76,91 @@ principles:
 
 ---
 
-## 🛰️ What I Build
-
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/IMS-Inventory%20Systems-00F5A0?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  GRN, MIV, MRN, stock movement, bin register, dispatch tracking.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/ERP-Workflow%20Logic-00D9FF?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  ERPNext, Frappe, Zoho, approvals, modules, SOPs and FRDs.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/CRM-Operational%20Dashboards-FFD166?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Supabase dashboards, KPI cards, clean data views and reporting.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/AI-Execution%20Systems-FF4D6D?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Prompt systems, vibe coding, AI implementation and automation planning.
-</td>
-</tr>
-</table>
+<img src="./assets/system-map.svg" alt="Operating System Map" width="100%" />
 
 </div>
 
 ---
 
-## 🧬 Operating System Map
+## 🧩 What I Build
 
-```mermaid
-flowchart LR
-    A[Business Problem] --> B[Workflow Mapping]
-    B --> C[System Architecture]
-    C --> D[Database Design]
-    D --> E[Dashboard / ERP Module]
-    E --> F[Automation Layer]
-    F --> G[Reports & Insights]
-    G --> H[Management Decisions]
+<table>
+<tr>
+<td width="25%" align="center">
 
-    B --> I[SOP / FRD]
-    I --> C
+### 📦 IMS
 
-    E --> J[User Operations]
-    J --> K[Feedback Loop]
-    K --> B
-```
+Inventory systems with GRN, MIV, MRN, bin register, stock movement, dispatch and traceability.
+
+</td>
+<td width="25%" align="center">
+
+### ⚙️ ERP
+
+ERPNext, Frappe, Zoho, approvals, modules, SOPs, FRDs, workflows and process logic.
+
+</td>
+<td width="25%" align="center">
+
+### 📊 Dashboards
+
+Supabase dashboards, KPI cards, management reports, CRM views and operational intelligence.
+
+</td>
+<td width="25%" align="center">
+
+### 🤖 AI Systems
+
+Prompt systems, vibe coding workflows, AI-assisted development planning and automation execution.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Arsenal
+
+<div align="center">
+
+### Core Web & Programming
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python" />
+
+<br /><br />
+
+### Frontend, App & UI
+
+<img src="https://skillicons.dev/icons?i=react,next,vite,flutter,figma" />
+
+<br /><br />
+
+### Backend, Database & Cloud
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres,firebase,mysql" />
+
+<br /><br />
+
+### Dev Tools & Workflow
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,notion" />
+
+</div>
+
+---
+
+## 🧠 Skill Matrix
+
+| Domain | What I Do | Tools / Concepts |
+|---|---|---|
+| **ERP Systems** | Module planning, workflow mapping, FRD/SOP creation | ERPNext, Frappe, Zoho |
+| **Inventory Systems** | Stock flow, GRN, MIV, MRN, bin register | IMS logic, database design |
+| **Procurement Ops** | PO tracking, vendor comparison, sourcing analysis | Sheets, dashboards, reports |
+| **Automation** | Webhooks, workflow bots, status updates | Zoho Flow, Cliq, APIs |
+| **Dashboards** | KPI cards, operational views, management reports | Supabase, SQL, JS |
+| **AI Execution** | Prompt systems, AI planning, vibe coding workflows | Codex, Claude Code, AI IDEs |
 
 ---
 
@@ -189,183 +203,15 @@ I turn operational requirements into ERP-ready flows, clean documentation, and a
 
 ---
 
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### Core Web & Programming
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python" />
-
-<br /><br />
-
-### Frontend, App & UI
-
-<img src="https://skillicons.dev/icons?i=react,next,vite,flutter,figma" />
-
-<br /><br />
-
-### Backend, Database & Cloud
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres,firebase,mysql" />
-
-<br /><br />
-
-### Dev Tools & Workflow
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,notion" />
-
-</div>
-
----
-
-## 🧠 Skill Matrix
-
-<div align="center">
-
-| Domain | What I Do | Tools / Concepts |
-|---|---|---|
-| **ERP Systems** | Module planning, workflow mapping, FRD/SOP creation | ERPNext, Frappe, Zoho |
-| **Inventory Systems** | Stock flow, GRN, MIV, MRN, bin register | IMS logic, database design |
-| **Procurement Ops** | PO tracking, vendor comparison, sourcing analysis | Sheets, dashboards, reports |
-| **Automation** | Webhooks, workflow bots, status updates | Zoho Flow, Cliq, APIs |
-| **Dashboards** | KPI cards, operational views, management reports | Supabase, SQL, JS |
-| **AI Execution** | Prompt systems, AI planning, vibe coding workflows | Codex, Claude Code, AI IDEs |
-
-</div>
-
----
-
-## 🧩 Project Architecture Style
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 01  
-### Discover
-
-Understand the actual workflow, users, data points, approvals, and business pain.
-
-</td>
-<td width="33%" align="center">
-
-### 02  
-### Design
-
-Convert the workflow into modules, database structure, UI screens, and automation logic.
-
-</td>
-<td width="33%" align="center">
-
-### 03  
-### Deploy
-
-Build, test, document, automate, improve, and make the system usable for real teams.
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 Build Intelligence Dashboard
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/System%20Design-Advanced-00F5A0?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Workflow-first architecture and module planning.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/ERP%20Logic-Strong-00D9FF?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Operational flows mapped into ERP structures.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Automation-Focused-FFD166?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Reducing repetitive work through tools and AI.
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Execution-Fast-FF4D6D?style=for-the-badge&labelColor=050816" />
-  <br /><br />
-  Turning requirements into usable systems quickly.
-</td>
-</tr>
-</table>
-
-</div>
-
-<br />
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abzops&bg_color=050816&color=FFFFFF&line=00F5A0&point=00D9FF&area=true&hide_border=true&custom_title=Abhinand's%20Build%20Activity" alt="Abhinand Build Activity Graph" />
-
-</div>
-
----
-
-## 🧪 Live Engineering Modes
-
-<div align="center">
-
-<table>
-<tr>
-<td width="20%" align="center">
-  <h3>🧭 Map</h3>
-  <p>Find the real workflow behind the problem.</p>
-</td>
-<td width="20%" align="center">
-  <h3>🧱 Model</h3>
-  <p>Design the database, modules, and screens.</p>
-</td>
-<td width="20%" align="center">
-  <h3>⚙️ Automate</h3>
-  <p>Connect tools, triggers, APIs, and alerts.</p>
-</td>
-<td width="20%" align="center">
-  <h3>📊 Measure</h3>
-  <p>Create dashboards and operational visibility.</p>
-</td>
-<td width="20%" align="center">
-  <h3>🚀 Improve</h3>
-  <p>Iterate based on usage, feedback, and gaps.</p>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
 ## 🚦 Live Work Philosophy
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/Think-Deeply-00F5A0?style=for-the-badge&labelColor=050816" />
-</td>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/Plan-Clearly-00D9FF?style=for-the-badge&labelColor=050816" />
-</td>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/Build-Fast-FFD166?style=for-the-badge&labelColor=050816" />
-</td>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/Test-Reality-FF4D6D?style=for-the-badge&labelColor=050816" />
-</td>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/Improve-Always-A855F7?style=for-the-badge&labelColor=050816" />
-</td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/Think-Deeply-00F5A0?style=for-the-badge&labelColor=050816" />
+<img src="https://img.shields.io/badge/Plan-Clearly-00D9FF?style=for-the-badge&labelColor=050816" />
+<img src="https://img.shields.io/badge/Build-Fast-FFD166?style=for-the-badge&labelColor=050816" />
+<img src="https://img.shields.io/badge/Test-Reality-FF4D6D?style=for-the-badge&labelColor=050816" />
+<img src="https://img.shields.io/badge/Improve-Always-A855F7?style=for-the-badge&labelColor=050816" />
 
 </div>
 
@@ -386,26 +232,6 @@ Mission Stack:
 
 ---
 
-## 🌐 Connect With Me
-
-<div align="center">
-
-<a href="https://linkedin.com/in/abzops">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Build%20Systems-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:opsintern@stacknstock.in">
-  <img src="https://img.shields.io/badge/Email-Start%20a%20Conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://github.com/abzops">
-  <img src="https://img.shields.io/badge/GitHub-Follow%20My%20Builds-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
----
-
 <div align="center">
 
 ### ⚡ Final Line
@@ -415,6 +241,6 @@ Mission Stack:
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,40:0EA5E9,100:050816&height=160&section=footer" alt="Footer Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,40:0EA5E9,100:050816&height=150&section=footer" alt="Footer Banner" />
 
 </div>
