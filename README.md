@@ -1,86 +1,80 @@
-<!-- README.md | Abhinand / abzops | Visual Profile Redesign -->
+<!--
+  GitHub Profile README
+  Abhinand / abzops
+  Style: Pure Markdown Command Center
+  No hero image. No asset folder. No reference-style banner.
+-->
 
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="Abhinand - AI Operations Architect" width="100%" />
+# ⚡ ABHINAND
 
-</div>
+### AI Operations Architect · ERP Automation · Systems Builder
 
-<br />
+```txt
+Building intelligent systems that automate operations,
+streamline workflows, and convert business chaos into execution-ready software.
+```
 
-<div align="center">
-
-<a href="https://linkedin.com/in/abzops">
-  <img src="https://img.shields.io/badge/LinkedIn-Abhinand-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:opsintern@stacknstock.in">
-  <img src="https://img.shields.io/badge/Email-opsintern%40stacknstock.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://github.com/abzops">
-  <img src="https://img.shields.io/badge/GitHub-abzops-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
+[LinkedIn](https://linkedin.com/in/abzops) · [Email](mailto:opsintern@stacknstock.in) · [GitHub](https://github.com/abzops)
 
 </div>
 
 ---
 
-## ⚡ Digital Operations Command Center
+## 🧭 Command Center
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="58%" valign="top">
 
-### 👋 About Me
+### 👨‍💻 About Me
 
 I’m **Abhinand**, a systems-focused builder working across **AI-assisted development, ERP workflows, automation, procurement systems, inventory management, CRM dashboards, and internal business tools**.
 
-My work is focused on converting real company operations into **structured, scalable, and execution-ready digital systems**.
+I focus on turning real-world operational problems into **structured, scalable, and automation-ready systems**.
 
-I like building tools that are:
+My work usually connects:
 
-- simple for teams to use
-- clean for developers to maintain
-- connected across workflows
-- ready for automation
-- useful for management decisions
+- business requirements
+- workflow mapping
+- ERP logic
+- database structure
+- dashboards
+- automation
+- documentation
+- AI-assisted execution
 
-> **I don’t just build screens. I build operating systems for business workflows.**
+> **I don’t just build software screens. I build systems around how people actually work.**
 
 </td>
-<td width="40%" valign="top">
+<td width="42%" valign="top">
 
-### 🧠 Builder Identity
+### 🧠 System Profile
 
 ```yaml
 name: Abhinand
-handle: abzops
-mode: Systems Builder
+github: abzops
+role: AI Operations Architect
 
 focus:
   - ERP automation
   - Inventory systems
-  - Procurement intelligence
-  - Internal tools
+  - Procurement workflows
+  - Internal dashboards
   - AI-assisted development
 
-principles:
-  - Clarity before code
-  - Workflow before UI
-  - Automation before repetition
-  - Execution before perfection
+working_style:
+  - map the workflow
+  - define the system
+  - build the tool
+  - automate the repetition
+  - improve from feedback
 ```
 
 </td>
 </tr>
 </table>
-
----
-
-<div align="center">
-
-<img src="./assets/system-map.svg" alt="Operating System Map" width="100%" />
-
-</div>
 
 ---
 
@@ -88,32 +82,32 @@ principles:
 
 <table>
 <tr>
-<td width="25%" align="center">
+<td width="25%" align="center" valign="top">
 
 ### 📦 IMS
 
-Inventory systems with GRN, MIV, MRN, bin register, stock movement, dispatch and traceability.
+Inventory systems with GRN, MIV, MRN, bin register, stock movement, purchase linkage, dispatch tracking, and traceability.
 
 </td>
-<td width="25%" align="center">
+<td width="25%" align="center" valign="top">
 
 ### ⚙️ ERP
 
-ERPNext, Frappe, Zoho, approvals, modules, SOPs, FRDs, workflows and process logic.
+ERPNext, Frappe, Zoho workflows, approval flows, custom module planning, SOPs, FRDs, and implementation logic.
 
 </td>
-<td width="25%" align="center">
+<td width="25%" align="center" valign="top">
 
 ### 📊 Dashboards
 
-Supabase dashboards, KPI cards, management reports, CRM views and operational intelligence.
+CRM, procurement, inventory, and operational dashboards with clean KPI cards, reports, and decision-ready data.
 
 </td>
-<td width="25%" align="center">
+<td width="25%" align="center" valign="top">
 
 ### 🤖 AI Systems
 
-Prompt systems, vibe coding workflows, AI-assisted development planning and automation execution.
+Prompt systems, vibe coding workflows, AI-assisted planning, internal automation, and execution frameworks.
 
 </td>
 </tr>
@@ -121,81 +115,121 @@ Prompt systems, vibe coding workflows, AI-assisted development planning and auto
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🛰️ Operating System Flow
 
-<div align="center">
+```mermaid
+flowchart LR
+    A["Business Problem"] --> B["Workflow Mapping"]
+    B --> C["System Design"]
+    C --> D["Database Logic"]
+    D --> E["ERP / Dashboard"]
+    E --> F["Automation Layer"]
+    F --> G["Reports & Insights"]
+    G --> H["Better Decisions"]
 
-### Core Web & Programming
+    B --> I["SOP / FRD"]
+    I --> C
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python" />
-
-<br /><br />
-
-### Frontend, App & UI
-
-<img src="https://skillicons.dev/icons?i=react,next,vite,flutter,figma" />
-
-<br /><br />
-
-### Backend, Database & Cloud
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,postgres,firebase,mysql" />
-
-<br /><br />
-
-### Dev Tools & Workflow
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,notion" />
-
-</div>
+    E --> J["Real Users"]
+    J --> K["Feedback"]
+    K --> B
+```
 
 ---
 
-## 🧠 Skill Matrix
+## 🛠️ Tech & Tool Stack
 
-| Domain | What I Do | Tools / Concepts |
-|---|---|---|
-| **ERP Systems** | Module planning, workflow mapping, FRD/SOP creation | ERPNext, Frappe, Zoho |
-| **Inventory Systems** | Stock flow, GRN, MIV, MRN, bin register | IMS logic, database design |
-| **Procurement Ops** | PO tracking, vendor comparison, sourcing analysis | Sheets, dashboards, reports |
-| **Automation** | Webhooks, workflow bots, status updates | Zoho Flow, Cliq, APIs |
-| **Dashboards** | KPI cards, operational views, management reports | Supabase, SQL, JS |
-| **AI Execution** | Prompt systems, AI planning, vibe coding workflows | Codex, Claude Code, AI IDEs |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Languages
+
+```txt
+HTML
+CSS
+JavaScript
+TypeScript
+Python
+SQL
+```
+
+</td>
+<td width="33%" valign="top">
+
+### Systems & Backend
+
+```txt
+Supabase
+PostgreSQL
+Firebase
+Node.js
+Express
+ERPNext
+Frappe
+Zoho
+```
+
+</td>
+<td width="33%" valign="top">
+
+### Tools
+
+```txt
+Git
+GitHub
+VS Code
+Postman
+Figma
+Notion
+Docker
+Linux
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏗️ Current Build Zones
+## 🏗️ Build Zones
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📦 Stack n Stock / IMS Thinking
+### 📦 Inventory System Logic
 
 ```txt
-GRN  -> Inventory Update
+GRN  -> Stock In
 MIV  -> Material Issue
 MRN  -> Material Return
-Bin  -> Location-Level Control
-PO   -> Procurement Linkage
 WIP  -> Conversion Tracking
+BIN  -> Location-Level Control
+PO   -> Purchase Linkage
 ```
 
-Every stock movement should be traceable, every purchase should connect to operations, and every dashboard should show what matters.
+Every stock movement should be traceable.  
+Every purchase should connect to operations.  
+Every dashboard should show what matters.
 
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ ERP + Automation Thinking
+### ⚙️ ERP Automation Logic
 
 ```txt
-Requirement -> Workflow -> Module
-Module      -> Data Model -> UI
-UI          -> Automation -> Report
-Report      -> Decision -> Improvement
+Requirement -> Workflow
+Workflow    -> Module
+Module      -> Data Model
+Data Model  -> UI
+UI          -> Automation
+Automation  -> Report
+Report      -> Decision
 ```
 
-I turn operational requirements into ERP-ready flows, clean documentation, and automation-friendly execution paths.
+The goal is not only to create software.  
+The goal is to create an operating system for the business.
 
 </td>
 </tr>
@@ -203,28 +237,93 @@ I turn operational requirements into ERP-ready flows, clean documentation, and a
 
 ---
 
-## 🚦 Live Work Philosophy
+## 📌 Focus Areas
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Think-Deeply-00F5A0?style=for-the-badge&labelColor=050816" />
-<img src="https://img.shields.io/badge/Plan-Clearly-00D9FF?style=for-the-badge&labelColor=050816" />
-<img src="https://img.shields.io/badge/Build-Fast-FFD166?style=for-the-badge&labelColor=050816" />
-<img src="https://img.shields.io/badge/Test-Reality-FF4D6D?style=for-the-badge&labelColor=050816" />
-<img src="https://img.shields.io/badge/Improve-Always-A855F7?style=for-the-badge&labelColor=050816" />
-
-</div>
+| Area | What I Work On |
+|---|---|
+| **ERP Systems** | Custom modules, workflow mapping, FRD/SOP creation |
+| **Inventory Systems** | GRN, MIV, MRN, WIP, bin register, stock movement |
+| **Procurement Tech** | PO tracking, vendor comparison, sourcing analysis |
+| **Automation** | Webhooks, workflow bots, Zoho Flow, Cliq updates |
+| **Dashboards** | CRM, IMS, procurement reports, operational KPIs |
+| **AI Implementation** | Prompt workflows, AI planning, vibe coding systems |
 
 ---
 
-## 🔮 Current Mission
+## 🧪 My Build Method
+
+<table>
+<tr>
+<td width="20%" align="center">
+
+### 01
+
+**Understand**
+
+Find the real workflow, users, pain points, approvals, and data gaps.
+
+</td>
+<td width="20%" align="center">
+
+### 02
+
+**Map**
+
+Convert messy operations into a clear step-by-step system flow.
+
+</td>
+<td width="20%" align="center">
+
+### 03
+
+**Design**
+
+Define modules, tables, screens, roles, permissions, and reports.
+
+</td>
+<td width="20%" align="center">
+
+### 04
+
+**Build**
+
+Create usable tools, dashboards, automations, and documentation.
+
+</td>
+<td width="20%" align="center">
+
+### 05
+
+**Improve**
+
+Test with real usage, collect feedback, and make the system stronger.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 System Thinking Notes
+
+```txt
+Clarity before code.
+Workflow before UI.
+Data before dashboard.
+Automation before repetition.
+Execution before perfection.
+```
+
+---
+
+## 🚀 Current Mission
 
 ```txt
 Build intelligent operating systems for growing businesses.
 
 Mission Stack:
 01. Digitize manual operations
-02. Connect inventory, procurement, ERP and CRM
+02. Connect inventory, procurement, ERP, and CRM
 03. Automate repetitive workflows
 04. Create dashboards that reveal truth
 05. Use AI to execute faster and smarter
@@ -232,15 +331,41 @@ Mission Stack:
 
 ---
 
+## 🌐 Connect
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### LinkedIn
+
+[linkedin.com/in/abzops](https://linkedin.com/in/abzops)
+
+</td>
+<td width="33%" align="center">
+
+### Email
+
+[opsintern@stacknstock.in](mailto:opsintern@stacknstock.in)
+
+</td>
+<td width="33%" align="center">
+
+### GitHub
+
+[github.com/abzops](https://github.com/abzops)
+
+</td>
+</tr>
+</table>
+
+---
+
 <div align="center">
 
 ### ⚡ Final Line
 
-> **Great software is not only written.  
-> It is architected around how people actually work.**
-
-<br />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,40:0EA5E9,100:050816&height=150&section=footer" alt="Footer Banner" />
+> Great software is not only written.  
+> It is architected around how people actually work.
 
 </div>
