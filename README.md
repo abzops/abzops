@@ -2,6 +2,7 @@
   GitHub Profile README
   Owner: Abhinand / abzops
   Theme: AI Operations Architect | ERP Automation | Systems Builder
+  Version: Creative Stable Edition
 -->
 
 <div align="center">
@@ -166,7 +167,7 @@ PO   -> Procurement Linkage
 WIP  -> Conversion Tracking
 ```
 
-I work on systems where every stock movement should be traceable, every purchase should connect to operations, and every dashboard should show what matters.
+Every stock movement should be traceable, every purchase should connect to operations, and every dashboard should show what matters.
 
 </td>
 <td width="50%" valign="top">
@@ -180,7 +181,7 @@ UI          -> Automation -> Report
 Report      -> Decision -> Improvement
 ```
 
-I focus on turning operational requirements into ERP-ready flows, clean documentation, and automation-friendly execution paths.
+I turn operational requirements into ERP-ready flows, clean documentation, and automation-friendly execution paths.
 
 </td>
 </tr>
@@ -268,13 +269,34 @@ Build, test, document, automate, improve, and make the system usable for real te
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Build Intelligence Dashboard
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=abzops&show_icons=true&theme=radical&hide_border=true&bg_color=050816&title_color=00F5A0&icon_color=00D9FF&text_color=FFFFFF" alt="GitHub Stats" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abzops&layout=compact&theme=radical&hide_border=true&bg_color=050816&title_color=00F5A0&text_color=FFFFFF" alt="Top Languages" />
+<table>
+<tr>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/System%20Design-Advanced-00F5A0?style=for-the-badge&labelColor=050816" />
+  <br /><br />
+  Workflow-first architecture and module planning.
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/ERP%20Logic-Strong-00D9FF?style=for-the-badge&labelColor=050816" />
+  <br /><br />
+  Operational flows mapped into ERP structures.
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Automation-Focused-FFD166?style=for-the-badge&labelColor=050816" />
+  <br /><br />
+  Reducing repetitive work through tools and AI.
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Execution-Fast-FF4D6D?style=for-the-badge&labelColor=050816" />
+  <br /><br />
+  Turning requirements into usable systems quickly.
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -282,25 +304,40 @@ Build, test, document, automate, improve, and make the system usable for real te
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abzops&theme=radical&hide_border=true&background=050816&ring=00F5A0&fire=00D9FF&currStreakLabel=00F5A0&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
-
-</div>
-
-<br />
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abzops&bg_color=050816&color=FFFFFF&line=00F5A0&point=00D9FF&area=true&hide_border=true&custom_title=Abhinand's%20Build%20Activity" alt="GitHub Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abzops&bg_color=050816&color=FFFFFF&line=00F5A0&point=00D9FF&area=true&hide_border=true&custom_title=Abhinand's%20Build%20Activity" alt="Abhinand Build Activity Graph" />
 
 </div>
 
 ---
 
-## 🏆 Trophy Room
+## 🧪 Live Engineering Modes
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=abzops&theme=radical&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" alt="GitHub Trophies" />
+<table>
+<tr>
+<td width="20%" align="center">
+  <h3>🧭 Map</h3>
+  <p>Find the real workflow behind the problem.</p>
+</td>
+<td width="20%" align="center">
+  <h3>🧱 Model</h3>
+  <p>Design the database, modules, and screens.</p>
+</td>
+<td width="20%" align="center">
+  <h3>⚙️ Automate</h3>
+  <p>Connect tools, triggers, APIs, and alerts.</p>
+</td>
+<td width="20%" align="center">
+  <h3>📊 Measure</h3>
+  <p>Create dashboards and operational visibility.</p>
+</td>
+<td width="20%" align="center">
+  <h3>🚀 Improve</h3>
+  <p>Iterate based on usage, feedback, and gaps.</p>
+</td>
+</tr>
+</table>
 
 </div>
 
