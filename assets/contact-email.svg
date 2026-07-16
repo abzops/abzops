@@ -1,0 +1,10 @@
+<svg width="500" height="82" viewBox="0 0 500 82" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="em-bg" x2="1"><stop stop-color="#0A1B25"/><stop offset="1" stop-color="#07101B"/></linearGradient><filter id="em-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect x="1" y="1" width="498" height="80" rx="18" fill="url(#em-bg)" stroke="#226B61" stroke-width="2"/>
+  <rect x="20" y="17" width="48" height="48" rx="11" fill="#0A342F" stroke="#22E6A8" stroke-opacity=".45"/>
+  <path d="M29 30H59V53H29ZM29 31L44 43L59 31" fill="none" stroke="#8EF4D2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="92" y="34" fill="#7E90A8" font-family="monospace" font-size="11" letter-spacing="2.4">EMAIL</text>
+  <text x="92" y="56" fill="#FFFFFF" font-family="Arial" font-size="15" font-weight="800">opsintern@stacknstock.in</text>
+  <path d="M447 32L458 41L447 50M457 41H425" fill="none" stroke="#22E6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="475" cy="17" r="4" fill="#22E6A8" filter="url(#em-glow)"><animate attributeName="opacity" values="1;.25;1" dur="2.2s" repeatCount="indefinite"/></circle>
+</svg>

@@ -1,0 +1,126 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ov-bg" x2="1" y2="1"><stop stop-color="#03070E"/><stop offset=".52" stop-color="#081422"/><stop offset="1" stop-color="#03060C"/></linearGradient>
+    <linearGradient id="ov-card" x2="1" y2="1"><stop stop-color="#13243A" stop-opacity=".9"/><stop offset="1" stop-color="#07101C" stop-opacity=".97"/></linearGradient>
+    <linearGradient id="ov-accent" x2="1"><stop stop-color="#22E6A8"/><stop offset=".5" stop-color="#35C7FF"/><stop offset="1" stop-color="#7B6CFF"/></linearGradient>
+    <radialGradient id="ov-aura"><stop stop-color="#35C7FF" stop-opacity=".16"/><stop offset="1" stop-color="#03070E" stop-opacity="0"/></radialGradient>
+    <pattern id="ov-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#263B58" stroke-opacity=".17"/></pattern>
+    <filter id="ov-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="ov-shadow" x="-30%" y="-30%" width="160%" height="190%"><feDropShadow dx="0" dy="17" stdDeviation="16" flood-color="#00040B" flood-opacity=".8"/></filter>
+  </defs>
+
+  <rect width="1600" height="640" rx="28" fill="url(#ov-bg)"/>
+  <rect width="1600" height="640" rx="28" fill="url(#ov-grid)"/>
+  <rect x="1" y="1" width="1598" height="638" rx="27" fill="none" stroke="#263A55" stroke-width="2"/>
+  <ellipse cx="800" cy="335" rx="720" ry="380" fill="url(#ov-aura)"/>
+
+  <g transform="translate(68 54)">
+    <text y="0" fill="#35C7FF" font-family="monospace" font-size="12" font-weight="700" letter-spacing="4">EXECUTIVE PORTFOLIO</text>
+    <text y="46" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="38" font-weight="900">Operational systems built for control and scale.</text>
+    <text x="0" y="77" fill="#71839B" font-family="Arial,sans-serif" font-size="16">Four connected disciplines. One disciplined execution model.</text>
+  </g>
+  <g transform="translate(1290 48)">
+    <rect width="240" height="62" rx="15" fill="#081522" stroke="#28425E"/>
+    <text x="22" y="24" fill="#71839B" font-family="monospace" font-size="10" letter-spacing="2">OPERATING MODE</text>
+    <circle cx="23" cy="43" r="4" fill="#22E6A8" filter="url(#ov-glow)"><animate attributeName="opacity" values="1;.22;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="37" y="48" fill="#C8F9E8" font-family="Arial" font-size="13" font-weight="700">ARCHITECT / BUILD / IMPROVE</text>
+  </g>
+
+  <g transform="translate(68 166)" filter="url(#ov-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="68 166;68 158;68 166" dur="7s" repeatCount="indefinite"/>
+    <rect width="342" height="282" rx="22" fill="url(#ov-card)" stroke="#245047"/>
+    <rect x="1" y="1" width="340" height="5" rx="3" fill="#22E6A8" opacity=".7"/>
+    <g transform="translate(30 31)" fill="none" stroke="#22E6A8" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="42" height="31" rx="7"/><rect x="68" y="0" width="42" height="31" rx="7"/><rect x="34" y="58" width="42" height="31" rx="7"/><path d="M21 31V44H55V58M89 31V44H55"/>
+    </g>
+    <text x="30" y="147" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="900">ERP ARCHITECTURE</text>
+    <text x="30" y="175" fill="#71839B" font-family="monospace" font-size="11" letter-spacing="1.7">MODULES / ROLES / APPROVALS</text>
+    <g transform="translate(30 210)">
+      <rect width="282" height="7" rx="3.5" fill="#142531"/>
+      <rect width="242" height="7" rx="3.5" fill="#22E6A8"><animate attributeName="width" values="70;242;216;242" dur="4.2s" repeatCount="indefinite"/></rect>
+      <g transform="translate(0 28)" fill="#53677F">
+        <circle cx="5" cy="5" r="5"/><circle cx="32" cy="5" r="5"/><circle cx="59" cy="5" r="5"/><circle cx="86" cy="5" r="5"/>
+      </g>
+      <g transform="translate(0 28)" fill="#22E6A8">
+        <circle cx="5" cy="5" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="32" cy="5" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2s" begin="-.5s" repeatCount="indefinite"/></circle>
+        <circle cx="59" cy="5" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2s" begin="-1s" repeatCount="indefinite"/></circle>
+        <circle cx="86" cy="5" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2s" begin="-1.5s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(442 166)" filter="url(#ov-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="442 166;442 174;442 166" dur="7.4s" repeatCount="indefinite"/>
+    <rect width="342" height="282" rx="22" fill="url(#ov-card)" stroke="#245067"/>
+    <rect x="1" y="1" width="340" height="5" rx="3" fill="#35C7FF" opacity=".75"/>
+    <g transform="translate(30 29)" fill="none" stroke="#35C7FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 24L55 0L102 24L55 49Z"/><path d="M8 24V68L55 92L102 68V24M55 49V92"/><path d="M28 34L75 10M36 58L74 77" opacity=".48"/>
+    </g>
+    <text x="30" y="147" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="900">INVENTORY CONTROL</text>
+    <text x="30" y="175" fill="#71839B" font-family="monospace" font-size="11" letter-spacing="1.7">MOVEMENT / BALANCE / TRACE</text>
+    <g transform="translate(30 205)" fill="none">
+      <path d="M0 38L45 13L96 30L148 4L208 24L282 2" stroke="#203D52" stroke-width="3"/>
+      <path d="M0 38L45 13L96 30L148 4L208 24L282 2" stroke="#35C7FF" stroke-width="3" stroke-dasharray="330" stroke-dashoffset="330">
+        <animate attributeName="stroke-dashoffset" values="330;0;0" keyTimes="0;.7;1" dur="4.4s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="148" cy="4" r="6" fill="#35C7FF" filter="url(#ov-glow)"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <g transform="translate(816 166)" filter="url(#ov-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="816 166;816 158;816 166" dur="7.8s" repeatCount="indefinite"/>
+    <rect width="342" height="282" rx="22" fill="url(#ov-card)" stroke="#3A3767"/>
+    <rect x="1" y="1" width="340" height="5" rx="3" fill="#7B6CFF" opacity=".8"/>
+    <g transform="translate(30 29)" fill="none" stroke="#8B7CFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="54" cy="45" r="17"/><circle cx="54" cy="45" r="40" stroke-dasharray="7 10"><animateTransform attributeName="transform" type="rotate" values="0 54 45;360 54 45" dur="9s" repeatCount="indefinite"/></circle>
+      <path d="M54 0V13M54 77V90M9 45H22M86 45H99M22 13L31 22M77 68L86 77M22 77L31 68M77 22L86 13"/>
+      <path d="M47 35L65 45L47 55Z" fill="#8B7CFF" stroke="none"/>
+    </g>
+    <text x="30" y="147" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="900">PROCESS AUTOMATION</text>
+    <text x="30" y="175" fill="#71839B" font-family="monospace" font-size="11" letter-spacing="1.7">TRIGGERS / BOTS / INTEGRATIONS</text>
+    <g transform="translate(30 208)">
+      <rect width="282" height="46" rx="12" fill="#0B1425" stroke="#2E2C59"/>
+      <circle cx="25" cy="23" r="7" fill="#8B7CFF" filter="url(#ov-glow)"><animate attributeName="opacity" values="1;.22;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <path d="M50 23H250" stroke="#27304D" stroke-width="2" stroke-dasharray="7 10"><animate attributeName="stroke-dashoffset" values="0;-68" dur="2.4s" repeatCount="indefinite"/></path>
+      <circle r="5" fill="#FFFFFF"><animateMotion dur="3.8s" repeatCount="indefinite" path="M50 23H250"/></circle>
+    </g>
+  </g>
+
+  <g transform="translate(1190 166)" filter="url(#ov-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="1190 166;1190 174;1190 166" dur="8.2s" repeatCount="indefinite"/>
+    <rect width="342" height="282" rx="22" fill="url(#ov-card)" stroke="#514630"/>
+    <rect x="1" y="1" width="340" height="5" rx="3" fill="#E8B95E" opacity=".85"/>
+    <g transform="translate(30 29)" fill="none" stroke="#E8B95E" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="54" cy="45" r="16"/><circle cx="8" cy="12" r="6"/><circle cx="100" cy="12" r="6"/><circle cx="8" cy="78" r="6"/><circle cx="100" cy="78" r="6"/>
+      <path d="M19 19L41 34M89 19L67 34M19 71L41 56M89 71L67 56"/>
+      <path d="M46 46L52 52L65 37"/>
+    </g>
+    <text x="30" y="147" fill="#FFFFFF" font-family="Arial" font-size="24" font-weight="900">AI INTELLIGENCE</text>
+    <text x="30" y="175" fill="#71839B" font-family="monospace" font-size="11" letter-spacing="1.7">ASSIST / PREDICT / OPTIMIZE</text>
+    <g transform="translate(30 207)">
+      <circle cx="38" cy="24" r="23" fill="none" stroke="#2E2A26" stroke-width="7"/>
+      <circle cx="38" cy="24" r="23" fill="none" stroke="#E8B95E" stroke-width="7" stroke-dasharray="108 38" transform="rotate(-90 38 24)"><animateTransform attributeName="transform" type="rotate" values="-90 38 24;270 38 24" dur="8s" repeatCount="indefinite"/></circle>
+      <text x="80" y="19" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="800">DECISION LAYER</text>
+      <text x="80" y="39" fill="#71839B" font-family="monospace" font-size="10" letter-spacing="1.5">SIGNAL TO ACTION</text>
+    </g>
+  </g>
+
+  <g transform="translate(68 507)">
+    <text y="0" fill="#60728A" font-family="monospace" font-size="10" letter-spacing="2.8">EXECUTION MODEL</text>
+    <path d="M0 54H1464" stroke="#17283D" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 54H1464" stroke="url(#ov-accent)" stroke-width="2" stroke-dasharray="11 18"><animate attributeName="stroke-dashoffset" values="0;-87" dur="2.6s" repeatCount="indefinite"/></path>
+    <g font-family="Arial" font-size="12" font-weight="800" fill="#D7E0EB">
+      <g transform="translate(0 28)"><circle cx="13" cy="26" r="13" fill="#0D2630" stroke="#22E6A8"/><text x="36" y="31">DISCOVER</text></g>
+      <g transform="translate(280 28)"><circle cx="13" cy="26" r="13" fill="#0B2230" stroke="#35C7FF"/><text x="36" y="31">MAP</text></g>
+      <g transform="translate(546 28)"><circle cx="13" cy="26" r="13" fill="#111D35" stroke="#4CA9FF"/><text x="36" y="31">DESIGN</text></g>
+      <g transform="translate(822 28)"><circle cx="13" cy="26" r="13" fill="#171931" stroke="#7B6CFF"/><text x="36" y="31">BUILD</text></g>
+      <g transform="translate(1082 28)"><circle cx="13" cy="26" r="13" fill="#211C2E" stroke="#A06CFF"/><text x="36" y="31">AUTOMATE</text></g>
+      <g transform="translate(1340 28)"><circle cx="13" cy="26" r="13" fill="#2A231A" stroke="#E8B95E"/><text x="36" y="31">SCALE</text></g>
+    </g>
+    <circle r="7" fill="#FFFFFF" filter="url(#ov-glow)"><animateMotion dur="7.5s" repeatCount="indefinite" path="M0 54H1464"/></circle>
+  </g>
+
+  <rect x="55" y="612" width="1490" height="2" fill="#13233A"/>
+  <rect x="55" y="612" width="290" height="2" fill="url(#ov-accent)"><animate attributeName="x" values="55;1255;55" dur="9s" repeatCount="indefinite"/></rect>
+</svg>

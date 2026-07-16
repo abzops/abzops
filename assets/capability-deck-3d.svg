@@ -1,0 +1,157 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="deck-bg" x2="1" y2="1">
+      <stop stop-color="#020617"/>
+      <stop offset=".52" stop-color="#081426"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="deck-accent" x2="1">
+      <stop stop-color="#00F5A0"/>
+      <stop offset=".5" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="deck-card" x2="1" y2="1">
+      <stop stop-color="#11223B" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#07101E" stop-opacity=".98"/>
+    </linearGradient>
+    <linearGradient id="deck-card-purple" x2="1" y2="1">
+      <stop stop-color="#1B1B45" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#090D21" stop-opacity=".98"/>
+    </linearGradient>
+    <pattern id="deck-grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#243654" stroke-opacity=".2"/>
+    </pattern>
+    <filter id="deck-glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="deck-shadow" x="-40%" y="-35%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="20" stdDeviation="17" flood-color="#00040C" flood-opacity=".9"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" rx="26" fill="url(#deck-bg)"/>
+  <rect width="1600" height="500" rx="26" fill="url(#deck-grid)"/>
+  <rect x="1" y="1" width="1598" height="498" rx="25" fill="none" stroke="#243654" stroke-width="2"/>
+
+  <text x="70" y="58" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="34" font-weight="900">Capability Engine</text>
+  <text x="70" y="88" fill="#7F91AF" font-family="Arial,sans-serif" font-size="17">Four execution layers synchronized through a single operational data rail.</text>
+  <g transform="translate(1285 42)">
+    <rect width="245" height="45" rx="12" fill="#071322" stroke="#00F5A0" stroke-opacity=".42"/>
+    <circle cx="22" cy="22" r="5" fill="#00F5A0" filter="url(#deck-glow)">
+      <animate attributeName="opacity" values="1;.2;1" dur="1.25s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="28" fill="#00F5A0" font-family="monospace" font-size="14" letter-spacing="2">ALL LAYERS ACTIVE</text>
+  </g>
+
+  <g opacity=".34" fill="none" stroke="#335074">
+    <path d="M60 448L800 280L1540 448"/>
+    <path d="M240 478L800 280L1360 478"/>
+    <path d="M480 492L800 280L1120 492"/>
+    <path d="M65 448H1535"/>
+    <path d="M215 474H1385"/>
+  </g>
+
+  <path d="M185 418C420 382 1180 382 1415 418" fill="none" stroke="#142742" stroke-width="9" stroke-linecap="round"/>
+  <path d="M185 418C420 382 1180 382 1415 418" fill="none" stroke="url(#deck-accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 20">
+    <animate attributeName="stroke-dashoffset" values="0;-96" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <circle r="7" fill="#FFFFFF" filter="url(#deck-glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M185 418C420 382 1180 382 1415 418"/>
+  </circle>
+  <circle r="5" fill="#00F5A0" filter="url(#deck-glow)">
+    <animateMotion dur="7s" begin="-2.35s" repeatCount="indefinite" path="M185 418C420 382 1180 382 1415 418"/>
+  </circle>
+  <circle r="5" fill="#A78BFA" filter="url(#deck-glow)">
+    <animateMotion dur="7s" begin="-4.7s" repeatCount="indefinite" path="M185 418C420 382 1180 382 1415 418"/>
+  </circle>
+
+  <g transform="translate(90 142)" filter="url(#deck-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="90 142;90 126;90 142" dur="5.4s" repeatCount="indefinite"/>
+    <polygon points="0,28 270,0 315,24 43,55" fill="#10352E" stroke="#00F5A0" stroke-opacity=".56"/>
+    <polygon points="43,55 315,24 315,262 43,292" fill="url(#deck-card)" stroke="#1E5B52"/>
+    <polygon points="0,28 43,55 43,292 0,258" fill="#071A19" stroke="#19443F"/>
+    <text x="72" y="92" fill="#00F5A0" font-family="monospace" font-size="13" letter-spacing="2">01 / OPERATIONS</text>
+    <text x="72" y="126" fill="#FFFFFF" font-family="Arial" font-size="25" font-weight="900">ERP CORE</text>
+    <text x="72" y="153" fill="#7F91AF" font-family="Arial" font-size="14">Roles - Flows - Approvals</text>
+    <g transform="translate(72 180)">
+      <rect width="185" height="8" rx="4" fill="#152A30"/>
+      <rect width="158" height="8" rx="4" fill="#00F5A0">
+        <animate attributeName="width" values="42;158;135;158" dur="3.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect y="26" width="145" height="8" rx="4" fill="#152A30"/>
+      <rect y="26" width="118" height="8" rx="4" fill="#00D9FF">
+        <animate attributeName="width" values="35;118;95;118" dur="3.8s" repeatCount="indefinite"/>
+      </rect>
+      <text y="70" fill="#00F5A0" font-family="monospace" font-size="12">SYNCED / ONLINE</text>
+    </g>
+  </g>
+
+  <g transform="translate(465 132)" filter="url(#deck-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="465 132;465 149;465 132" dur="6s" repeatCount="indefinite"/>
+    <polygon points="0,28 270,0 315,24 43,55" fill="#0E3042" stroke="#00D9FF" stroke-opacity=".58"/>
+    <polygon points="43,55 315,24 315,262 43,292" fill="url(#deck-card)" stroke="#1B5169"/>
+    <polygon points="0,28 43,55 43,292 0,258" fill="#07151E" stroke="#164255"/>
+    <text x="72" y="92" fill="#00D9FF" font-family="monospace" font-size="13" letter-spacing="2">02 / DATA</text>
+    <text x="72" y="126" fill="#FFFFFF" font-family="Arial" font-size="25" font-weight="900">INVENTORY</text>
+    <text x="72" y="153" fill="#7F91AF" font-family="Arial" font-size="14">Movement - Trace - Balance</text>
+    <g transform="translate(72 176)" fill="none" stroke-width="2">
+      <path d="M0 50L40 23L82 40L126 6L178 28" stroke="#24435B"/>
+      <path d="M0 50L40 23L82 40L126 6L178 28" stroke="#00D9FF" stroke-dasharray="190" stroke-dashoffset="190">
+        <animate attributeName="stroke-dashoffset" values="190;0;0" keyTimes="0;.68;1" dur="3.7s" repeatCount="indefinite"/>
+      </path>
+      <g fill="#00D9FF" stroke="none">
+        <circle cx="40" cy="23" r="5"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="126" cy="6" r="5"><animate attributeName="r" values="3;7;3" dur="2s" begin="-1s" repeatCount="indefinite"/></circle>
+      </g>
+      <text x="0" y="83" fill="#00D9FF" font-family="monospace" font-size="12" stroke="none">LIVE LEDGER SIGNAL</text>
+    </g>
+  </g>
+
+  <g transform="translate(840 142)" filter="url(#deck-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="840 142;840 125;840 142" dur="5.7s" repeatCount="indefinite"/>
+    <polygon points="0,28 270,0 315,24 43,55" fill="#25204A" stroke="#8B5CF6" stroke-opacity=".62"/>
+    <polygon points="43,55 315,24 315,262 43,292" fill="url(#deck-card-purple)" stroke="#413778"/>
+    <polygon points="0,28 43,55 43,292 0,258" fill="#11102B" stroke="#342E63"/>
+    <text x="72" y="92" fill="#A78BFA" font-family="monospace" font-size="13" letter-spacing="2">03 / EXECUTION</text>
+    <text x="72" y="126" fill="#FFFFFF" font-family="Arial" font-size="25" font-weight="900">AUTOMATION</text>
+    <text x="72" y="153" fill="#7F91AF" font-family="Arial" font-size="14">Triggers - Bots - APIs</text>
+    <g transform="translate(162 214)">
+      <circle r="47" fill="none" stroke="#252550" stroke-width="9"/>
+      <circle r="47" fill="none" stroke="#8B5CF6" stroke-width="9" stroke-dasharray="205 90" transform="rotate(-90)">
+        <animateTransform attributeName="transform" type="rotate" values="-90;270" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="20" fill="#17153D" stroke="#A78BFA"/>
+      <path d="M-7-10L12 0L-7 10Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <g transform="translate(1215 132)" filter="url(#deck-shadow)">
+    <animateTransform attributeName="transform" type="translate" values="1215 132;1215 149;1215 132" dur="6.3s" repeatCount="indefinite"/>
+    <polygon points="0,28 270,0 315,24 43,55" fill="#3A2F24" stroke="#FFD166" stroke-opacity=".62"/>
+    <polygon points="43,55 315,24 315,262 43,292" fill="url(#deck-card)" stroke="#5C4932"/>
+    <polygon points="0,28 43,55 43,292 0,258" fill="#1B1510" stroke="#493923"/>
+    <text x="72" y="92" fill="#FFD166" font-family="monospace" font-size="13" letter-spacing="2">04 / INTELLIGENCE</text>
+    <text x="72" y="126" fill="#FFFFFF" font-family="Arial" font-size="25" font-weight="900">AI LAYER</text>
+    <text x="72" y="153" fill="#7F91AF" font-family="Arial" font-size="14">Predict - Assist - Improve</text>
+    <g transform="translate(163 216)">
+      <ellipse rx="70" ry="27" fill="none" stroke="#FFD166" stroke-opacity=".65" stroke-width="2" stroke-dasharray="7 10">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="28" ry="62" fill="none" stroke="#00D9FF" stroke-opacity=".55" stroke-width="2" stroke-dasharray="7 10" transform="rotate(35)">
+        <animateTransform attributeName="transform" type="rotate" values="35;-325" dur="7s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle r="24" fill="#241D22" stroke="#FFD166"/>
+      <text y="6" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="18" font-weight="900">AI</text>
+      <circle cx="70" r="5" fill="#FFD166" filter="url(#deck-glow)">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <rect x="60" y="468" width="1480" height="2" rx="1" fill="#14233B"/>
+  <rect x="60" y="468" width="300" height="2" rx="1" fill="url(#deck-accent)">
+    <animate attributeName="x" values="60;1240;60" dur="8.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="800" y="490" text-anchor="middle" fill="#52657F" font-family="monospace" font-size="12" letter-spacing="4">ERP + INVENTORY + AUTOMATION + AI = OPERATIONAL ADVANTAGE</text>
+</svg>

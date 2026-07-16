@@ -1,0 +1,199 @@
+<svg width="1600" height="700" viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#02050B"/>
+      <stop offset=".5" stop-color="#071221"/>
+      <stop offset="1" stop-color="#02040A"/>
+    </linearGradient>
+    <linearGradient id="hero-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F6FAFF"/>
+      <stop offset=".35" stop-color="#B7C6DA"/>
+      <stop offset=".66" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#7A8AA2"/>
+    </linearGradient>
+    <linearGradient id="hero-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22E6A8"/>
+      <stop offset=".48" stop-color="#35C7FF"/>
+      <stop offset="1" stop-color="#7B6CFF"/>
+    </linearGradient>
+    <linearGradient id="hero-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#18304E" stop-opacity=".72"/>
+      <stop offset=".48" stop-color="#0C182A" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#050B14" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="hero-face-top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#37E8D4" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#4A68FF" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="hero-face-left" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0D947D" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#08243A" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="hero-face-right" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4852D9" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#15183C" stop-opacity=".96"/>
+    </linearGradient>
+    <radialGradient id="hero-aura">
+      <stop stop-color="#27D7FF" stop-opacity=".26"/>
+      <stop offset=".5" stop-color="#6858FF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#02050B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hero-grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#2B4162" stroke-opacity=".15"/>
+    </pattern>
+    <filter id="hero-shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#00030A" flood-opacity=".88"/>
+    </filter>
+    <filter id="hero-glow" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hero-noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="4" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer>
+    </filter>
+    <clipPath id="hero-clip"><rect width="1600" height="700" rx="32"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#hero-clip)">
+    <rect width="1600" height="700" fill="url(#hero-bg)"/>
+    <rect width="1600" height="700" fill="url(#hero-grid)"/>
+    <rect width="1600" height="700" filter="url(#hero-noise)" opacity=".55"/>
+    <ellipse cx="1240" cy="340" rx="470" ry="420" fill="url(#hero-aura)">
+      <animate attributeName="rx" values="430;500;430" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".72;1;.72" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M-300 610L980-70" stroke="#FFFFFF" stroke-opacity=".025" stroke-width="160">
+      <animateTransform attributeName="transform" type="translate" values="-280 0;900 0;-280 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <rect y="0" width="1600" height="70" fill="#02050B" opacity=".7"/>
+    <rect y="69" width="1600" height="1" fill="#263852"/>
+
+    <g transform="translate(64 20)">
+      <rect width="40" height="40" rx="10" fill="#0A1726" stroke="#35C7FF" stroke-opacity=".52"/>
+      <path d="M11 29L20 10L29 29M15 23H25" fill="none" stroke="url(#hero-accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="55" y="18" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="2.8">ABZOPS</text>
+      <text x="55" y="36" fill="#667993" font-family="monospace" font-size="10" letter-spacing="2">EXECUTIVE SYSTEMS OFFICE</text>
+    </g>
+    <g transform="translate(1295 21)">
+      <rect width="240" height="38" rx="19" fill="#071521" stroke="#22E6A8" stroke-opacity=".36"/>
+      <circle cx="21" cy="19" r="5" fill="#22E6A8" filter="url(#hero-glow)">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="38" y="24" fill="#9FF6D9" font-family="monospace" font-size="11" letter-spacing="1.7">SYSTEMS OPERATIONAL</text>
+    </g>
+
+    <g transform="translate(74 142)">
+      <text y="18" fill="#35C7FF" font-family="monospace" font-size="14" font-weight="700" letter-spacing="5">AI OPERATIONS ARCHITECT</text>
+      <rect y="43" width="630" height="2" fill="#17283F"/>
+      <rect y="43" width="280" height="2" fill="url(#hero-accent)">
+        <animate attributeName="width" values="120;410;280;120" dur="5.8s" repeatCount="indefinite"/>
+      </rect>
+      <text y="154" fill="url(#hero-metal)" font-family="Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-4">ABHINAND</text>
+      <text y="202" fill="#B7C4D7" font-family="Arial,sans-serif" font-size="27" font-weight="600" letter-spacing=".5">Executive architecture for intelligent operations.</text>
+
+      <g transform="translate(0 248)">
+        <g>
+          <rect width="205" height="76" rx="16" fill="url(#hero-glass)" stroke="#24425E"/>
+          <g transform="translate(22 19)" fill="none" stroke="#22E6A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="1" y="1" width="24" height="24" rx="5"/>
+            <path d="M7 9H19M7 14H16M7 19H13"/>
+          </g>
+          <text x="64" y="31" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="800" letter-spacing="1">ERP SYSTEMS</text>
+          <text x="64" y="52" fill="#70839D" font-family="monospace" font-size="10" letter-spacing="1.4">ARCHITECTURE</text>
+        </g>
+        <g transform="translate(222)">
+          <rect width="205" height="76" rx="16" fill="url(#hero-glass)" stroke="#24425E"/>
+          <g transform="translate(22 19)" fill="none" stroke="#35C7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <ellipse cx="13" cy="5" rx="12" ry="4"/><path d="M1 5V20C1 25 25 25 25 20V5M1 13C1 18 25 18 25 13"/>
+          </g>
+          <text x="64" y="31" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="800" letter-spacing="1">DATA CONTROL</text>
+          <text x="64" y="52" fill="#70839D" font-family="monospace" font-size="10" letter-spacing="1.4">TRACEABILITY</text>
+        </g>
+        <g transform="translate(444)">
+          <rect width="205" height="76" rx="16" fill="url(#hero-glass)" stroke="#24425E"/>
+          <g transform="translate(22 18)" fill="none" stroke="#8B7CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="13" cy="13" r="6"/><circle cx="3" cy="4" r="2.5"/><circle cx="24" cy="4" r="2.5"/><circle cx="3" cy="23" r="2.5"/><circle cx="24" cy="23" r="2.5"/><path d="M8 9L5 6M18 9L22 6M8 18L5 21M18 18L22 21"/>
+          </g>
+          <text x="64" y="31" fill="#FFFFFF" font-family="Arial" font-size="13" font-weight="800" letter-spacing="1">AI EXECUTION</text>
+          <text x="64" y="52" fill="#70839D" font-family="monospace" font-size="10" letter-spacing="1.4">AUTOMATION</text>
+        </g>
+      </g>
+
+      <g transform="translate(0 365)">
+        <path d="M0 0H650" stroke="#1B2D45"/>
+        <g transform="translate(0 24)">
+          <path d="M2 4L11 12L2 20" fill="none" stroke="#22E6A8" stroke-width="2"/>
+          <text x="26" y="17" fill="#8B9AB0" font-family="monospace" font-size="12" letter-spacing="2.2">SYSTEMS</text>
+        </g>
+        <g transform="translate(172 24)">
+          <path d="M0 12H22M11 1V23" stroke="#35C7FF" stroke-width="2"/>
+          <text x="36" y="17" fill="#8B9AB0" font-family="monospace" font-size="12" letter-spacing="2.2">AUTOMATION</text>
+        </g>
+        <g transform="translate(406 24)">
+          <circle cx="11" cy="12" r="10" fill="none" stroke="#8B7CFF" stroke-width="2"/><path d="M5 15L9 10L13 13L18 6" fill="none" stroke="#8B7CFF" stroke-width="2"/>
+          <text x="36" y="17" fill="#8B9AB0" font-family="monospace" font-size="12" letter-spacing="2.2">INTELLIGENCE</text>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(1195 348)">
+      <ellipse rx="315" ry="112" fill="none" stroke="#35C7FF" stroke-opacity=".28" stroke-width="2" stroke-dasharray="9 17" transform="rotate(-14)">
+        <animateTransform attributeName="transform" type="rotate" values="-14;346" dur="24s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="235" ry="84" fill="none" stroke="#7B6CFF" stroke-opacity=".34" stroke-width="2" stroke-dasharray="7 15" transform="rotate(28)">
+        <animateTransform attributeName="transform" type="rotate" values="28;-332" dur="19s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle r="7" fill="#22E6A8" filter="url(#hero-glow)">
+        <animateMotion dur="8.5s" repeatCount="indefinite" path="M-305 0A305 108 0 1 0 305 0A305 108 0 1 0-305 0"/>
+      </circle>
+      <circle r="6" fill="#35C7FF" filter="url(#hero-glow)">
+        <animateMotion dur="8.5s" begin="-2.8s" repeatCount="indefinite" path="M-305 0A305 108 0 1 0 305 0A305 108 0 1 0-305 0"/>
+      </circle>
+      <circle r="6" fill="#8B7CFF" filter="url(#hero-glow)">
+        <animateMotion dur="8.5s" begin="-5.6s" repeatCount="indefinite" path="M-305 0A305 108 0 1 0 305 0A305 108 0 1 0-305 0"/>
+      </circle>
+
+      <g filter="url(#hero-shadow)">
+        <animateTransform attributeName="transform" type="translate" values="0 -16;0 13;0 -16" dur="6s" repeatCount="indefinite"/>
+        <polygon points="0,-210 176,-108 0,-7 -176,-108" fill="url(#hero-face-top)" stroke="#8CEEFF" stroke-opacity=".62"/>
+        <polygon points="-176,-108 0,-7 0,195 -176,94" fill="url(#hero-face-left)" stroke="#31E8B4" stroke-opacity=".58"/>
+        <polygon points="0,-7 176,-108 176,94 0,195" fill="url(#hero-face-right)" stroke="#8F87FF" stroke-opacity=".58"/>
+        <path d="M-145-94L0-10L145-94M0-10V158" fill="none" stroke="#FFFFFF" stroke-opacity=".19"/>
+        <g transform="translate(0 -62)">
+          <path d="M-58 65L0-63L58 65M-34 12H34" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M-58 65L0-63L58 65M-34 12H34" fill="none" stroke="url(#hero-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g opacity=".3">
+          <path d="M-150 72L0 158L150 72" fill="none" stroke="#FFFFFF"/>
+          <path d="M-150 32L0 118L150 32" fill="none" stroke="#FFFFFF"/>
+        </g>
+      </g>
+      <ellipse cy="232" rx="195" ry="42" fill="#35C7FF" opacity=".07" filter="url(#hero-glow)">
+        <animate attributeName="rx" values="160;208;160" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".04;.12;.04" dur="6s" repeatCount="indefinite"/>
+      </ellipse>
+      <g opacity=".7">
+        <path d="M-208-130L-296-184" stroke="#22E6A8" stroke-opacity=".5"/>
+        <circle cx="-300" cy="-187" r="6" fill="#22E6A8"><animate attributeName="r" values="4;9;4" dur="2.2s" repeatCount="indefinite"/></circle>
+        <path d="M210-120L294-172" stroke="#35C7FF" stroke-opacity=".5"/>
+        <circle cx="299" cy="-175" r="6" fill="#35C7FF"><animate attributeName="r" values="4;9;4" dur="2.6s" repeatCount="indefinite"/></circle>
+        <path d="M222 100L305 145" stroke="#8B7CFF" stroke-opacity=".5"/>
+        <circle cx="310" cy="148" r="6" fill="#8B7CFF"><animate attributeName="r" values="4;9;4" dur="2.4s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+
+    <g transform="translate(74 648)">
+      <path d="M0 0H1452" stroke="#1B2B42"/>
+      <rect y="-1" width="320" height="2" fill="url(#hero-accent)">
+        <animate attributeName="x" values="0;1132;0" dur="10s" repeatCount="indefinite"/>
+      </rect>
+      <text y="27" fill="#52647D" font-family="monospace" font-size="11" letter-spacing="3">ERP ARCHITECTURE / INVENTORY CONTROL / PROCUREMENT INTELLIGENCE / AI AUTOMATION</text>
+    </g>
+    <rect width="1600" height="22" fill="#35C7FF" opacity=".018">
+      <animate attributeName="y" values="-22;700;-22" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="1598" height="698" rx="31" fill="none" stroke="#283A54" stroke-width="2"/>
+</svg>
