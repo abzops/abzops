@@ -1,10 +1,10 @@
 <svg width="500" height="82" viewBox="0 0 500 82" xmlns="http://www.w3.org/2000/svg">
-  <defs><linearGradient id="gh-bg" x2="1"><stop stop-color="#161529"/><stop offset="1" stop-color="#07101B"/></linearGradient><filter id="gh-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-  <rect x="1" y="1" width="498" height="80" rx="18" fill="url(#gh-bg)" stroke="#494276" stroke-width="2"/>
-  <rect x="20" y="17" width="48" height="48" rx="11" fill="#1B1A31" stroke="#8B7CFF" stroke-opacity=".55"/>
-  <g transform="translate(29 26)" fill="none" stroke="#C0BAFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5"/><circle cx="23" cy="23" r="5"/><circle cx="23" cy="7" r="5"/><path d="M7 12V18C7 21 10 23 13 23H18M23 12V18"/></g>
-  <text x="92" y="34" fill="#7E90A8" font-family="monospace" font-size="11" letter-spacing="2.4">GITHUB</text>
+  <defs><linearGradient id="gh-bg" x2="1"><stop stop-color="#11110F"/><stop offset="1" stop-color="#0D0D0B"/></linearGradient><filter id="gh-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect x="1" y="1" width="498" height="80" rx="18" fill="url(#gh-bg)" stroke="#A87800" stroke-width="2"/>
+  <rect x="20" y="17" width="48" height="48" rx="11" fill="#131311" stroke="#FFF3A3" stroke-opacity=".55"/>
+  <g transform="translate(29 26)" fill="none" stroke="#C0C0C0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5"/><circle cx="23" cy="23" r="5"/><circle cx="23" cy="7" r="5"/><path d="M7 12V18C7 21 10 23 13 23H18M23 12V18"/></g>
+  <text x="92" y="34" fill="#8E8E8E" font-family="monospace" font-size="11" letter-spacing="2.4">GITHUB</text>
   <text x="92" y="56" fill="#FFFFFF" font-family="Arial" font-size="15" font-weight="800">github.com/abzops</text>
-  <path d="M447 32L458 41L447 50M457 41H425" fill="none" stroke="#8B7CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="475" cy="17" r="4" fill="#8B7CFF" filter="url(#gh-glow)"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <path d="M447 32L458 41L447 50M457 41H425" fill="none" stroke="#FFF3A3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="475" cy="17" r="4" fill="#FFF3A3" filter="url(#gh-glow)"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
 </svg>
