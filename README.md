@@ -3,8 +3,12 @@
 </p>
 
 <p align="center">
-  <strong>Software &amp; IT · AI agent orchestration · Operational systems · Interactive 3D</strong><br />
-  <a href="https://www.linkedin.com/in/abzops/">LinkedIn</a> · <a href="https://github.com/abzops?tab=repositories">Repositories</a>
+  <strong>Software &amp; IT · AI agent orchestration · Operational systems · Interactive 3D</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abzops/"><img src="./assets/link-linkedin.svg" alt="LinkedIn — Professional profile" width="30%" /></a>
+  <a href="https://github.com/abzops?tab=repositories"><img src="./assets/link-repositories.svg" alt="Repositories — Explore the work" width="30%" /></a>
 </p>
 
 ## The work behind the interface
@@ -17,18 +21,30 @@ My work also reaches beyond the browser: computer-vision measurement, digital tw
 
 ## Systems I've built
 
-| Project | Work represented in the repository |
-| --- | --- |
-| [Procurement Hub](https://github.com/abzops/Procurement-Hub) | Purchase orders, suppliers, deliveries, payment visibility, and database integration. |
-| [Inventory Management Dashboard](https://github.com/abzops/stacknstock-inventory-dashboard) | Goods receipt, issues and returns, stock ledgers, work-in-progress conversion, dispatch documents, and reporting. |
-| [Project & Financial Operations](https://github.com/abzops/sns-projects) | Project workflows, responsibilities, financial hierarchy, expenses, budget controls, and role-aware dashboards. |
-| [CRM Workspace](https://github.com/abzops/sns-crm) | Accounts, pipeline views, follow-ups, search, exports, and persistence workflows. |
-| [Computer Vision Measurement](https://github.com/abzops/local-ai-sku-dimensioner) | Prototype for image capture, calibration, geometric measurement, and readiness validation. |
-| [Insurance Renewal Portal](https://github.com/abzops/IRFD) | Renewal follow-ups, organization onboarding, and tenant-aware data access. |
-| [Duty Rotation PWA](https://github.com/abzops/duty-rotator) | Shared-task scheduling, rotation, notifications, and administration. |
-| [AI Keyboard Extension](https://github.com/abzops/CoReplyApp) | Swift iOS keyboard-extension project with AI-assisted reply suggestions. |
-| [Karaoke Operations Control Center](https://github.com/abzops/AKOCP) | Orders, reusable track inventory, payments, wallets, expenses, and reporting for my own studio. |
-| [AK Mate](https://github.com/abzops/akmate) | Desktop media utility for my karaoke workflow. |
+<p>
+  <a href="https://github.com/abzops/Procurement-Hub"><img src="./assets/project-01.svg" alt="Procurement Hub: Purchase orders, suppliers, deliveries, payment visibility, and database integration." width="49%" /></a>
+  <a href="https://github.com/abzops/stacknstock-inventory-dashboard"><img src="./assets/project-02.svg" alt="Inventory Management Dashboard: Goods receipt, issues and returns, stock ledgers, work-in-progress conversion, dispatch documents, and reporting." width="49%" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/abzops/sns-projects"><img src="./assets/project-03.svg" alt="Project &amp; Financial Operations: Project workflows, responsibilities, financial hierarchy, expenses, budget controls, and role-aware dashboards." width="49%" /></a>
+  <a href="https://github.com/abzops/sns-crm"><img src="./assets/project-04.svg" alt="CRM Workspace: Accounts, pipeline views, follow-ups, search, exports, and persistence workflows." width="49%" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/abzops/local-ai-sku-dimensioner"><img src="./assets/project-05.svg" alt="Computer Vision Measurement: Prototype for image capture, calibration, geometric measurement, and readiness validation." width="49%" /></a>
+  <a href="https://github.com/abzops/IRFD"><img src="./assets/project-06.svg" alt="Insurance Renewal Portal: Renewal follow-ups, organization onboarding, and tenant-aware data access." width="49%" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/abzops/duty-rotator"><img src="./assets/project-07.svg" alt="Duty Rotation PWA: Shared-task scheduling, rotation, notifications, and administration." width="49%" /></a>
+  <a href="https://github.com/abzops/CoReplyApp"><img src="./assets/project-08.svg" alt="AI Keyboard Extension: Swift iOS keyboard-extension project with AI-assisted reply suggestions." width="49%" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/abzops/AKOCP"><img src="./assets/project-09.svg" alt="Karaoke Operations Control Center: Orders, reusable track inventory, payments, wallets, expenses, and reporting for my own studio." width="49%" /></a>
+  <a href="https://github.com/abzops/akmate"><img src="./assets/project-10.svg" alt="AK Mate: Desktop media utility for my karaoke workflow." width="49%" /></a>
+</p>
 
 These links represent source projects, not a blanket claim of production readiness. Individual READMEs and release records provide implementation context.
 
