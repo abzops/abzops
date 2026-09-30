@@ -1,39 +1,100 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Abhinand — Building the brain behind how things move" width="100%" />
+</p>
 
-<img src="./assets/executive-hero-yellow.svg" alt="Abhinand executive AI operations profile" width="100%" />
+<p align="center">
+  <strong>Software &amp; IT · AI agent orchestration · Operational systems · Interactive 3D</strong><br />
+  <a href="https://www.linkedin.com/in/abzops/">LinkedIn</a> · <a href="https://github.com/abzops?tab=repositories">Repositories</a>
+</p>
 
-<br />
+## The work behind the interface
 
-<a href="https://linkedin.com/in/abzops"><img src="./assets/contact-linkedin-yellow.svg" alt="LinkedIn" width="32%" /></a>
-<a href="mailto:opsintern@stacknstock.in"><img src="./assets/contact-email-yellow.svg" alt="Email" width="32%" /></a>
-<a href="https://github.com/abzops"><img src="./assets/contact-github-yellow.svg" alt="GitHub" width="32%" /></a>
+I'm Abhinand. I build software, IT systems, and automation around work that has to move: orders, inventory, budgets, product data, and physical operations.
 
-<br /><br />
+My workspace has a team in it. Dedicated AI agents, distinct responsibilities, and my own orchestration connecting their work. I set the direction, review the output, and make the pieces work together. The tools help carry the implementation. The responsibility stays with me.
 
-<img src="./assets/executive-overview-yellow.svg" alt="Executive operations portfolio" width="100%" />
+My work also reaches beyond the browser: computer-vision measurement, digital twins, Blender product visualization, and interactive Unity environments working on Windows and macOS.
 
-<br /><br />
+## Systems I've built
 
-<img src="./assets/systems-core-3d-yellow.svg" alt="Three dimensional operations architecture" width="100%" />
+| Project | Work represented in the repository |
+| --- | --- |
+| [Procurement Hub](https://github.com/abzops/Procurement-Hub) | Purchase orders, suppliers, deliveries, payment visibility, and database integration. |
+| [Inventory Management Dashboard](https://github.com/abzops/stacknstock-inventory-dashboard) | Goods receipt, issues and returns, stock ledgers, work-in-progress conversion, dispatch documents, and reporting. |
+| [Project & Financial Operations](https://github.com/abzops/sns-projects) | Project workflows, responsibilities, financial hierarchy, expenses, budget controls, and role-aware dashboards. |
+| [CRM Workspace](https://github.com/abzops/sns-crm) | Accounts, pipeline views, follow-ups, search, exports, and persistence workflows. |
+| [Computer Vision Measurement](https://github.com/abzops/local-ai-sku-dimensioner) | Prototype for image capture, calibration, geometric measurement, and readiness validation. |
+| [Insurance Renewal Portal](https://github.com/abzops/IRFD) | Renewal follow-ups, organization onboarding, and tenant-aware data access. |
+| [Duty Rotation PWA](https://github.com/abzops/duty-rotator) | Shared-task scheduling, rotation, notifications, and administration. |
+| [AI Keyboard Extension](https://github.com/abzops/CoReplyApp) | Swift iOS keyboard-extension project with AI-assisted reply suggestions. |
+| [Karaoke Operations Control Center](https://github.com/abzops/AKOCP) | Orders, reusable track inventory, payments, wallets, expenses, and reporting for my own studio. |
+| [AK Mate](https://github.com/abzops/akmate) | Desktop media utility for my karaoke workflow. |
 
-<br /><br />
+These links represent source projects, not a blanket claim of production readiness. Individual READMEs and release records provide implementation context.
 
-<img src="./assets/pipeline-animated-yellow.svg" alt="Animated execution pipeline" width="100%" />
+## Websites & platforms
 
-<br /><br />
+| Repository | Focus |
+| --- | --- |
+| [Product Website](https://github.com/abzops/StacknStock) | Product storytelling, responsive design, and interactive presentation. |
+| [Xelor Freelancing App](https://github.com/abzops/Xelor-Freelancing-App) | Freelancing-platform application work. |
+| [Projecthub](https://github.com/abzops/Projecthub) | A lasting showcase for student projects. |
+| [Science of Breath](https://github.com/abzops/scienceofbreath.org) | Website and platform development. |
+| [Science of Breath Page](https://github.com/abzops/science-of-breath-page) | Web-page and landing-page work. |
+| [SOB Online](https://github.com/abzops/sob-online) | Interactive web experience for breathing practice. |
 
-<img src="./assets/capability-deck-3d-yellow.svg" alt="Three dimensional capability engine" width="100%" />
+## Beyond the public repositories
 
-<br /><br />
+- **AI agent team orchestration:** dedicated agents, task coordination, review, and integration across my workflows.
+- **Mobile inventory application:** Flutter/Dart, QR scanning, local SQLite storage, and an offline synchronization queue. Source remains private.
+- **Digital twin & control simulation:** execution logic, discrete-event simulation, a 3D operational twin, and live telemetry; engineering prototype.
+- **Catalogue & storage intelligence:** category taxonomies, packaging dimensions, structured reporting, and bin-packing research.
+- **3D product visualization:** Blender modelling, materials, lighting, and rendering.
+- **Interactive walkthroughs:** Unity/C# navigation, collisions, doors, and operational interactions; Windows/macOS.
+- **Customer analytics:** invoice and customer-data pipelines using Python, DuckDB, and Polars.
+- **ERP & IT:** deployment, customization, workflow integration, and workstation administration.
+- **Technical communication:** presentation design, programmatic deck generation, and product communication assets.
 
-<img src="./assets/technology-command-yellow.svg" alt="Technology command center" width="100%" />
+This section summarizes work without public source at a high level.
 
-<br /><br />
+## Tools I work with
 
-<img src="./assets/status-animated-yellow.svg" alt="Executive build status" width="100%" />
+| Area | Tools |
+| --- | --- |
+| Applications | JavaScript, TypeScript, React, Next.js, HTML/CSS, Python, Django |
+| Data & APIs | PostgreSQL, Supabase, SQLite, FastAPI, DuckDB, Polars |
+| Mobile | Flutter, Dart, Swift |
+| Vision & simulation | OpenCV, SimPy, Three.js, Unity, C# |
+| Product & delivery | Blender, Figma, Git, GitHub Actions, Docker |
 
-<br /><br />
+## Earlier builds & learning
 
-<img src="./assets/executive-footer-yellow.svg" alt="Executive systems mission" width="100%" />
+My earlier repositories show how I learned by building. Clones and exercises are learning work.
 
-</div>
+| Repository | Context |
+| --- | --- |
+| [Django Project](https://github.com/abzops/Django-Project) | Project-management admin panel with authentication and project CRUD. |
+| [Abhinand](https://github.com/abzops/Abhinand) | Earlier personal portfolio built from a template. |
+| [What ToDo Tomorrow](https://github.com/abzops/what-todo-tomorrow) | Early startup web-project exploration. |
+| [OLX Clone](https://github.com/abzops/Olx-Clone) | React learning project. |
+| [Netflix Clone](https://github.com/abzops/Netflix-Clone) | React learning project. |
+| [React ToDo App](https://github.com/abzops/-React-ToDo-App) | Early web-development exercise. |
+| [Linkshortner](https://github.com/abzops/Linkshortner) | PHP URL-shortening project. |
+| [Facebook Homepage](https://github.com/abzops/Facebook-Homepage) | Early HTML homepage exercise. |
+| [Amazon](https://github.com/abzops/Amazon) | Earlier React entertainment/learning experiment; not affiliated with Amazon. |
+
+<details>
+<summary>Forks & template explorations</summary>
+
+These repositories started from other authors' work. Attribution and upstream context remain in their repositories.
+
+- [paper-kit-react](https://github.com/abzops/paper-kit-react) — fork of a React UI template.
+- [xelor](https://github.com/abzops/xelor) — fork-based template exploration.
+- [Ping Static Website](https://github.com/abzops/Ping-Static-Website) — forked static-site exercise.
+
+</details>
+
+---
+
+**A database rule. A camera capture. A door inside a simulation.**<br />
+The details change. The responsibility stays with me.
